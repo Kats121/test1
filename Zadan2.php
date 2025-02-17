@@ -9,7 +9,7 @@ function Treygolnik(float $a, float $b, float $c): string
         return " Такого Треугольник не существует.";
     }
 
-    if ($a == $b && $b == $c) {
+    if ($a === $b && $b === $c) {
         return "Равносторонний треугольник.";
     } elseif ($a == $b || $a == $c || $b == $c) {
         return "Равнобедренный треугольник.";
