@@ -1,7 +1,7 @@
 <?php
 function Progression($a, $b, $c)
 {
-	return ($b - $a) == ($c - $b);
+	return ($b - $a) === ($c - $b);
 }
 $a = readline ("Введите первое число");
 $b = readline ("Введите второе число");
